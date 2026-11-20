@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "working_CSVs": 15,
+  "catalog_CSVs": 13,
+  "result_CSVs": 2,
+  "reviewed_archive_CSVs": 228,
+  "relocated_notebook": "passed",
+  "expected_overlap_counts": "passed",
+  "source_copy_hashes": "passed"
+}

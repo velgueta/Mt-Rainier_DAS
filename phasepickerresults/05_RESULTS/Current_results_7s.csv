@@ -1,0 +1,23 @@
+analysis,metric,count,denominator,tolerance_seconds,scope,note
+PyOcto picker comparison,PhaseNet-DAS / ELEP-DAS shared,32,,7,Full selected catalogs,PyOcto for both DAS pickers; ComCat regional reference; clock uncorrected.
+PyOcto picker comparison,PhaseNet-DAS / ComCat shared,208,,7,Full selected catalogs,PyOcto for both DAS pickers; ComCat regional reference; clock uncorrected.
+PyOcto picker comparison,ELEP-DAS / ComCat shared,26,,7,Full selected catalogs,PyOcto for both DAS pickers; ComCat regional reference; clock uncorrected.
+PyOcto picker comparison,All three shared,26,,7,Full selected catalogs,PyOcto for both DAS pickers; ComCat regional reference; clock uncorrected.
+ELEP partition,ELEP with both counterparts,26,39,7,Full selected catalogs,Accepted association records; possible 88/89 duplicate unresolved.
+ELEP partition,ELEP with PhaseNet only,6,39,7,Full selected catalogs,Accepted association records; possible 88/89 duplicate unresolved.
+ELEP partition,ELEP with neither counterpart,7,39,7,Full selected catalogs,Accepted association records; possible 88/89 duplicate unresolved.
+GaMMA and TM comparison,DAS: ML versus TM / shared,46,,7,Full selected catalogs,
+GaMMA and TM comparison,Five-station ML versus station TM / shared,37,,7,Full selected catalogs,
+GaMMA and TM comparison,Full-network ML versus station TM (context) / shared,73,,7,Full selected catalogs,
+GaMMA and TM comparison,ML: DAS versus five stations / shared,117,,7,Full selected catalogs,
+GaMMA and TM comparison,ML: DAS versus full network (context) / shared,249,,7,Full selected catalogs,
+GaMMA and TM comparison,TM: DAS versus stations / shared,45,,7,Full selected catalogs,
+Local ComCat recovery,DAS: ML + GaMMA (reviewed),152,216,7,25-km ComCat reference; ML positions unrestricted,
+Local ComCat recovery,Five stations: ML + GaMMA (accepted),124,216,7,25-km ComCat reference; ML positions unrestricted,
+Local ComCat recovery,Full network: ML + GaMMA (context),208,216,7,25-km ComCat reference; ML positions unrestricted,
+Local ComCat recovery,DAS: template matching,53,216,7,25-km ComCat reference; ML positions unrestricted,
+Local ComCat recovery,Stations: template matching (subset unverified),62,216,7,25-km ComCat reference; ML positions unrestricted,
+Local PhaseNet-DAS / GaMMA accounting,DAS_within_radius,403,,7,DAS estimated epicenters within 25 km; regional ComCat counterparts,
+Local PhaseNet-DAS / GaMMA accounting,With_regional_ComCat_counterpart,164,,7,DAS estimated epicenters within 25 km; regional ComCat counterparts,
+Local PhaseNet-DAS / GaMMA accounting,Without_regional_ComCat_counterpart,239,,7,DAS estimated epicenters within 25 km; regional ComCat counterparts,
+Local PhaseNet-DAS / GaMMA accounting,Uncertain_historical_links_in_unmatched_subset,61,,7,DAS estimated epicenters within 25 km; regional ComCat counterparts,

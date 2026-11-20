@@ -1,0 +1,67 @@
+{
+  "gamma_das_candidates": {
+    "path": "01_DAS/PhaseNet_DAS_GaMMA_candidates_942.csv",
+    "rows": 942,
+    "note": "All updated GaMMA candidates; not all confirmed."
+  },
+  "gamma_reviewed": {
+    "path": "01_DAS/PhaseNet_DAS_GaMMA_reviewed_478.csv",
+    "rows": 478,
+    "note": "Reviewed historical groups linked to the updated run; 138 uncertain links retained."
+  },
+  "pyocto_das_candidates": {
+    "path": "01_DAS/PhaseNet_DAS_PyOcto_candidates_778.csv",
+    "rows": 778,
+    "note": "All updated PyOcto candidates; not all confirmed."
+  },
+  "pyocto_reviewed": {
+    "path": "01_DAS/PhaseNet_DAS_PyOcto_reviewed_514.csv",
+    "rows": 514,
+    "note": "514 reviewed links; 4 uncertain links retained. Three needs_review links are excluded."
+  },
+  "elep_review": {
+    "path": "01_DAS/ELEP_DAS_PyOcto_reviewed_99.csv",
+    "rows": 99,
+    "note": "Complete new run with confirm/review_status: 39 accepted, 60 rejected."
+  },
+  "gamma_five": {
+    "path": "02_STATIONS/GaMMA_five_stations_266.csv",
+    "rows": 266,
+    "note": "KAUT, LON, MILK, PARA, RER; accepted by study assumption."
+  },
+  "gamma_all": {
+    "path": "02_STATIONS/GaMMA_all_stations_1384.csv",
+    "rows": 1384,
+    "note": "Raw associations; 1383 fall in the common interval."
+  },
+  "pyocto_five": {
+    "path": "02_STATIONS/PyOcto_five_stations_354.csv",
+    "rows": 354,
+    "note": "Saved five-station PyOcto association catalog."
+  },
+  "pyocto_all": {
+    "path": "02_STATIONS/PyOcto_all_stations_1495.csv",
+    "rows": 1495,
+    "note": "Saved full-network PyOcto association catalog."
+  },
+  "tm_das_selected": {
+    "path": "03_TEMPLATE_MATCHING/DAS_CC_gt_0p07_85.csv",
+    "rows": 85,
+    "note": "Working DAS TM selection, strict CC > 0.07."
+  },
+  "tm_station_raw": {
+    "path": "03_TEMPLATE_MATCHING/Stations_92.csv",
+    "rows": 92,
+    "note": "Station-TM detections; production station subset unverified."
+  },
+  "comcat_regional": {
+    "path": "04_COMCAT/Regional_reference_942.csv",
+    "rows": 942,
+    "note": "Working regional earthquake reference: 45\u201348 N, 123\u2013120 W."
+  },
+  "comcat_1000": {
+    "path": "04_COMCAT/Expanded_reference_1000km.csv",
+    "rows": 7221,
+    "note": "Cached unfiltered source; select earthquake types when screening."
+  }
+}
