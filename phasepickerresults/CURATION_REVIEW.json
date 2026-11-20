@@ -1,0 +1,1221 @@
+{
+  "reviewed_CSVs": 228,
+  "selected_existing_CSVs": 14,
+  "new_consolidated_result_CSVs": 1,
+  "total_working_CSVs": 15,
+  "decisions": [
+    {
+      "path": "00_START_HERE/CURRENT_CATALOGS.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "00_START_HERE/CURRENT_OVERLAPS.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "00_START_HERE/ORIGINAL_VISUAL_FOLDERS.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "00_START_HERE/PENDING_CHECKS.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/cached_downloads/comcat_rainier_1000km_raw.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/cached_downloads/comcat_rainier_100km_raw.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/cached_downloads/comcat_rainier_200km_raw.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/cached_downloads/comcat_rainier_300km_raw.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/cached_downloads/comcat_rainier_500km_raw.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/comcat_original_25km_218.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/ComCat/regional_reference_used_942.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/ELEP_DAS/PyOcto/candidates_complete_run_99.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/PhaseNet_DAS/GaMMA/candidates_same_range_942.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/PhaseNet_DAS/PyOcto/candidates_same_range_778.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/Seismic_stations/GaMMA/all_stations_1384.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/Seismic_stations/GaMMA/five_stations_266.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/Seismic_stations/PyOcto/all_stations_1495.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/Seismic_stations/PyOcto/five_stations_354.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "01_CATALOGS/Template_matching/DAS/detections_before_CC_filter_148.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "01_CATALOGS/Template_matching/Stations/detections_92.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "02_REVIEWED/ELEP_DAS/PyOcto/accepted_39.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/ELEP_DAS/PyOcto/complete_review_99.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "02_REVIEWED/ELEP_DAS/PyOcto/rejected_60.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/PhaseNet_DAS/GaMMA/historical_groups_483.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/PhaseNet_DAS/GaMMA/review_to_new_run_mapping_483.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/PhaseNet_DAS/GaMMA/reviewed_new_run_478.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "02_REVIEWED/PhaseNet_DAS/PyOcto/historical_group_entries_518.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/PhaseNet_DAS/PyOcto/reviewed_new_run_514.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "02_REVIEWED/Template_matching/DAS_CC_gt_0p07_85.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "02_REVIEWED/review_audits/gamma_confirmation_20261031/gamma_plotted_events_confirm_grouped.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/review_audits/gamma_confirmation_20261031/plotted_events_confirm.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/review_audits/pyocto_confirmation_20261102/pyocto_plotted_events_confirm_grouped.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "02_REVIEWED/review_audits/pyocto_confirmation_20261102/pyocto_repetition_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/close_origin_pairs_not_deduplicated.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_01_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_02_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_03_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_04_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_05_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/comparison_summary_7s.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/confirmed_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "03_COMPARISONS/ELEP_PyOcto_7s/seven_unmatched_events/seven_events_comcat_audit.csv",
+      "decision": "keep",
+      "reason": "Current source, reviewed selection or seven-case audit."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/comparison_5s_vs_15s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/das_local_comcat_missed_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/das_local_reference_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/das_local_without_comcat_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/das_regional_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/five_stations_local_comcat_missed_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/five_stations_local_reference_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/five_stations_local_without_comcat_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/five_stations_regional_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/full_network_local_comcat_missed_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/full_network_local_reference_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/full_network_local_without_comcat_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_5s_20261104/full_network_regional_pairs_5s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/comparison_7s_vs_15s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/das_local_comcat_missed_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/das_local_reference_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/das_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/das_regional_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/five_stations_local_comcat_missed_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/five_stations_local_reference_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/five_stations_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_20261104/five_stations_regional_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/comparison_7s_vs_15s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/comparison_radius25_vs30km_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/das_local_comcat_missed_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/das_local_reference_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/das_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/five_stations_local_comcat_missed_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/five_stations_local_reference_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/five_stations_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/full_network_local_reference_pairs_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "04_SENSITIVITY/gamma_comcat_tolerance_7s_radius30km_20261104/full_network_local_without_comcat_7s.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/CC_GTWY_20231025.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/DAS_block_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/DAS_event_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/DAS_event_picks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/DAS_file_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/UW_WPEQ_20231115.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/checkingpicks_gamma/gamma_pick_plots_3months/plotted_events.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/checkingpicks_pyocto/3months/pyocto_plotted_events.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/events_detect_octo_staonly.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/events_detect_octo_staonly_only_KAUT-LON-MILK-PARA-RER_strict.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/Rainierpicks_original_versions/events_detect_octo_staonly_only_KAUT-LON-MILK-PARA_strict.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/3firstmonths_newdistance.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/3firstmonths_newdistance_updatedsept28.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/Ashford-Paradise.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/MORADAS_20230827_10.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/Paradise2NisquallyEntrace_Channels.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/Paradise2NisquallyEntrace_Channels_interp_direction.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/das_vs_PNSNcatalog.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/VElgueta-2025/text-file/pnsn_event_export_20240613.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/catalog_totals.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/comparison_summary.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/full_network_audit_distance.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/full_network_audit_hour_offsets.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/full_network_audit_spatial_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/full_network_audit_tolerance.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/full_network_unmatched_reference_events.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/input_provenance.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/local_comcat_counterpart_summary.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/local_comcat_unmatched_full_network.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/local_das_comcat_accounting.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/local_das_without_comcat_counterpart.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/01_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/02_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/03_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/04_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/05_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/06_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/regional_reference_01_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/regional_reference_02_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/regional_reference_03_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/regional_reference_04_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/matched_pairs/regional_reference_05_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/regional_comcat_counterparts.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/comprehensive/tm_ml_accounting.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/summary/catalog_totals.csv",
+      "decision": "archive_only",
+      "reason": "Repository/supporting snapshot, not a selected working event catalog."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/summary/matched_pairs/local_reference_ML-DAS_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/summary/matched_pairs/local_reference_ML-five-stations_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/repository_working_copies/github-ml-tm-das-stations/notebooks/ml-tm-das-stations/results/summary/matched_pairs/local_reference_ML-full-network_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Intermediate per-pair table; current notebook regenerates these."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/ComCat_PyOcto_station_ML_comparison.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_Alex_manual_PyOcto_comparison.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_PyOcto_preliminary_comparison.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_comparison_with_ComCat.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test/DAS_block_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test/DAS_event_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test/DAS_event_picks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test/DAS_file_summary.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_10/DAS_block_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_10/DAS_event_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_10/DAS_event_picks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_10/DAS_file_summary.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_v2/DAS_block_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_v2/DAS_event_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_v2/DAS_event_picks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/DAS_catalog_test_v2/DAS_file_summary.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/DAS_catalog_results/DAS_block_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/DAS_catalog_results/DAS_event_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/DAS_catalog_results/DAS_event_picks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/DAS_catalog_results/DAS_file_summary.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230823_13_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230827_05_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230827_10_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230910_19_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230914_11_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20230929_01_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20231017_07_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/all_csv_integration_test/MORADAS_20231104_13_AR.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/das_coherent_blocks.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/das_coherent_blocks_20230827_10.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/das_coherent_events.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/das_coherent_events_20230827_10.csv",
+      "decision": "archive_only",
+      "reason": "Earlier processing experiment or channel-level picks; not needed for event-catalog comparison."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/figures/DAS_Alex_manual_PyOcto_ComCat_comparison.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/before_user_review_20261102/pyocto_confirmed_event_groups.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/before_user_review_20261102/pyocto_plotted_events_confirm_grouped.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/before_user_review_20261102/pyocto_repetition_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/pending_count_clarification_20261102/pyocto_confirmed_event_groups.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/pending_count_clarification_20261102/pyocto_plotted_events_confirm_grouped.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/outputs/pyocto_confirmation_20261102/pending_count_clarification_20261102/pyocto_repetition_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/das_ml_classification_with_comcat_overrides.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/final_das_ml_catalog.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/method_overlap_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/method_overlap_summary_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/method_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/ml_candidate_validation.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/ml_candidate_validation_1000km.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/new_matches_500_to_1000km.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/official_comcat_detection_matrix.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/official_comcat_detection_matrix_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/official_recovery_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/official_recovery_summary_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/radius_sensitivity.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_30_all_station_review_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_30_all_station_reviewed.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_30_all_station_sample.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_30_all_station_waveform_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_50_all_station_review_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_50_all_station_reviewed.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_50_all_station_sample.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/random_50_all_station_waveform_metrics.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_1000km_screening_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_100km_screening.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_200km_screening.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_300km_screening.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_500km_screening.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/regional_500km_screening_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/rejected_1000km_temporal_coincidences.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/template_detection_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/template_locations.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/tm_das_threshold_sensitivity.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/unmatched_das_ml_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/unmatched_five_west_ml_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/unmatched_four_west_ml_review.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output/unmatched_four_west_waveform_downloads.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/events_detect_octo_staonly_only_KAUT-LON-MILK-PARA-RER-09212026_strict.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/method_overlap_summary_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/official_comcat_detection_matrix_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/official_recovery_summary_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/regional_1000km_screening_validated.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/rainier_swarm_figure_output_09212026/west_event_match_audit.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/recalculation_five_west/ComCat_PyOcto_station_ML_comparison.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/reviewer_100km_visibility_reanalysis/3firstmonths_before_period_extension.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/reviewer_100km_visibility_reanalysis/comcat_aug23_nov23_100km.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/reviewer_100km_visibility_reanalysis/visibility_before_distance_completion.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/template_ml_comparison/method_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/template_ml_comparison/official_comcat_detection_matrix.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/workspace_results/template_ml_comparison/west_reference_summary.csv",
+      "decision": "archive_only",
+      "reason": "Historical review/version or intermediate audit; retained in the full archive."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/comparison_summary.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/full_network_audit_distance.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/full_network_audit_hour_offsets.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/full_network_audit_spatial_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/full_network_audit_tolerance.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/full_network_unmatched_reference_events.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/local_comcat_counterpart_summary.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/01_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/02_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/03_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/04_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/05_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/06_matched_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/regional_reference_01_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/regional_reference_03_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/regional_reference_04_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/matched_pairs/regional_reference_05_pairs.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/regional_comcat_counterparts.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    },
+    {
+      "path": "90_ARCHIVE/zip_snapshots/Rainier_DAS_vs_stations_GaMMA_20261104_tolerance15s/Rainier_DAS_vs_stations_GaMMA/results/tm_ml_accounting.csv",
+      "decision": "archive_only",
+      "reason": "Alternative threshold/radius or intermediate sensitivity output."
+    }
+  ],
+  "source_provenance": [
+    {
+      "path": "01_DAS/PhaseNet_DAS_GaMMA_candidates_942.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/PhaseNet_DAS/GaMMA/candidates_same_range_942.csv",
+      "sha256": "fd2dedc4ff85375afc23bc720a12620ad6a61a968472f0bea364462d472f1c73"
+    },
+    {
+      "path": "01_DAS/PhaseNet_DAS_GaMMA_reviewed_478.csv",
+      "source": "Rainier_catalogs_and_results_20261120/02_REVIEWED/PhaseNet_DAS/GaMMA/reviewed_new_run_478.csv",
+      "sha256": "c8fb8095dc8516130d2c584f497c61bf3c68ffc09cb557cec776c7d76aa2b51c"
+    },
+    {
+      "path": "01_DAS/PhaseNet_DAS_PyOcto_candidates_778.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/PhaseNet_DAS/PyOcto/candidates_same_range_778.csv",
+      "sha256": "5407199a874cd8c6b928ba5ac590daf0de8ebf64f783947c9fa09ab45528bb03"
+    },
+    {
+      "path": "01_DAS/PhaseNet_DAS_PyOcto_reviewed_514.csv",
+      "source": "Rainier_catalogs_and_results_20261120/02_REVIEWED/PhaseNet_DAS/PyOcto/reviewed_new_run_514.csv",
+      "sha256": "b7f101e5f10aa8e26142eccf9243529520f8ec1c41cf5b86619da049c471a1db"
+    },
+    {
+      "path": "01_DAS/ELEP_DAS_PyOcto_reviewed_99.csv",
+      "source": "Rainier_catalogs_and_results_20261120/02_REVIEWED/ELEP_DAS/PyOcto/complete_review_99.csv",
+      "sha256": "6dea9a0021ceb85292c04a2c624522419b65b40026457424f1314d62e8b25493"
+    },
+    {
+      "path": "02_STATIONS/GaMMA_five_stations_266.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/Seismic_stations/GaMMA/five_stations_266.csv",
+      "sha256": "4ee5d86cea59c28f92e76fd7dabd102738768417199e85394927f8459b7e2f87"
+    },
+    {
+      "path": "02_STATIONS/GaMMA_all_stations_1384.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/Seismic_stations/GaMMA/all_stations_1384.csv",
+      "sha256": "714fb8d6528ed70e4310727cbd8b9df84bfce160e6b9cb6ee18e2b25f174ed46"
+    },
+    {
+      "path": "02_STATIONS/PyOcto_five_stations_354.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/Seismic_stations/PyOcto/five_stations_354.csv",
+      "sha256": "f858e9cd4548cad65a16b062b6735b4adad991dc40888cec57be3207bdfa2cad"
+    },
+    {
+      "path": "02_STATIONS/PyOcto_all_stations_1495.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/Seismic_stations/PyOcto/all_stations_1495.csv",
+      "sha256": "7f5080bde698d1e5006c8d6e917b0bb542dc662876c94dc25b8e63b96814c3b6"
+    },
+    {
+      "path": "03_TEMPLATE_MATCHING/DAS_CC_gt_0p07_85.csv",
+      "source": "Rainier_catalogs_and_results_20261120/02_REVIEWED/Template_matching/DAS_CC_gt_0p07_85.csv",
+      "sha256": "53fa091c4f30ff1b689d0110957308bc886f1029d8c393aff910f8d09066c058"
+    },
+    {
+      "path": "03_TEMPLATE_MATCHING/Stations_92.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/Template_matching/Stations/detections_92.csv",
+      "sha256": "74a0fee6b866653cd7167cc45a9b08be17e68914cfa64f26645af5738dd8a5e6"
+    },
+    {
+      "path": "04_COMCAT/Regional_reference_942.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/ComCat/regional_reference_used_942.csv",
+      "sha256": "056e177eb31dabb9765c687070e663414c96bcbca0c39939f705766e73a27f3e"
+    },
+    {
+      "path": "04_COMCAT/Expanded_reference_1000km.csv",
+      "source": "Rainier_catalogs_and_results_20261120/01_CATALOGS/ComCat/cached_downloads/comcat_rainier_1000km_raw.csv",
+      "sha256": "2bedbe4ddff0459f6bb7f9d0ddc879c9c9a35b85635602c2c2b397905910e963"
+    },
+    {
+      "path": "05_RESULTS/Seven_ELEP_nonmatches_audit.csv",
+      "source": "outputs/elep_pyocto_review_20261119/seven_unmatched_events/seven_events_comcat_audit.csv",
+      "sha256": "205e4006966e3e4a7a19cc72a54bd1296507b210e9adcaea0ce6c1e01c2f4d08"
+    }
+  ],
+  "source_path_note": "Provenance paths are relative to the original Rainier workspace; source CSVs in this folder are self-contained and byte-identical."
+}
